@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Asimovian", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: larger;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #F2E7DC, #027373);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div{
+    height: 170px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F2E7DC;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    border-radius: 7px;
+    letter-spacing: 0px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.relogio span.tempo {
+    font-size: 50px;
+}
